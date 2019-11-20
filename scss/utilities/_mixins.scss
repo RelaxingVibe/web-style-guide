@@ -1,0 +1,15 @@
+// Center containers
+@mixin center {
+    max-width: $max-width;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+// Media Queries
+@mixin mq($break) {
+    @if $break == "bp" {
+        @media (min-width: $break-point) {
+            @content;
+        }
+    }
+}

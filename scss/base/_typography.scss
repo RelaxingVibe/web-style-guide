@@ -1,0 +1,32 @@
+/* ============================================= */
+/*              Typography                       */
+/* ============================================= */
+* {
+    font-family: 'Lato', sans-serif;
+    color: $color-primary;
+}
+
+.headline-primary {
+    color: $color-secondary;
+    margin-left: 10px;
+}
+
+.headline-secondary {
+    font-weight: $font-weight-light;
+    color: $color-primary;
+}
+
+.link {
+    color: $color-btn-default;
+    font-weight: $font-weight-med;
+}
+
+.blockquote {
+    font-size: 1.5em;
+    font-weight: $font-weight-light;
+    font-style: italic;
+    margin-left: 20px;
+    padding-left: 20px;
+    border-left: 8px solid $color-secondary;
+    border-radius: 5px;
+}
